@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine Slots</title>
+</head>
+<body>
+    <script src="server.js"></script>
+    <div>
+        <h1>Welcome! Here you can see which slots are availabe in various Districts of Maharashtra</h1>
+    </div>
+    <div>
+        <label>District/City:</label>
+        <input list="district" id="city" onfocus="this.value=''">
+        <datalist id="district">
+            <option value="Ahmednagar">
+            <option value="Akola">
+            <option value="Amravati">
+            <option value="Aurangabad">
+            <option value="Beed">
+            <option value="Bhandara">
+            <option value="Buldhana">
+            <option value="Chandrapur">
+            <option value="Dhule">
+            <option value="Gadchiroli">
+            <option value="Gondia">
+            <option value="Hingoli">
+            <option value="Jalgaon">
+            <option value="Jalna">
+            <option value="Kolhapur">
+            <option value="Latur">
+            <option value="Mumbai">
+            <option value="Nagpur">
+            <option value="Nanded">
+            <option value="Nandurbar">
+            <option value="Nashik" >
+            <option value="Osmanabad">
+            <option value="Palghar">
+            <option value="Parbhani">
+            <option value="Pune">
+            <option value="Raigad">
+            <option value="Ratnagiri">
+            <option value="Sangli">
+            <option value="Satara">
+            <option value="Sindhudurg">
+            <option value="Solapur">
+            <option value="Thane">
+            <option value="Wardha">
+            <option value="Washim">
+            <option value="Yavatmal">     
+        </datalist>
+        <br>
+        <br>
+        <button onclick="slots()">Check Slots</button>
+    </div>
+
+
+    
+    
+    <div id="slots"></div>
+</body>
+</html>
